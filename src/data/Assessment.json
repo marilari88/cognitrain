@@ -1,0 +1,59 @@
+[
+	{
+		"id":1,
+		"question":"Di che colore è il cavallo bianco di Napoleone?",
+		"answers":[{
+			"text":"Bianco",
+			"key":"a",
+			"rightAnswer":true
+		},{
+			"text":"Giallo",
+			"key":"s",
+			"rightAnswer":false
+		}]
+	},
+	{
+		"id":2,
+		"question":"Di che colore è la rosa rossa?",
+		"answers":[{
+			"text":"Rossa",
+			"key":"d",
+			"rightAnswer":true
+		},{
+			"text":"Rosa",
+			"key":"f",
+			"rightAnswer":false
+		}]
+	},
+	{
+		"id":3,
+		"question":"Di che colore è il foglio bianco?",
+		"answers":[{
+			"text":"Bianco",
+			"key":"a",
+			"rightAnswer":true
+		},{
+			"text":"Rosa",
+			"key":"f",
+			"rightAnswer":false
+		},{
+			"text":"Giallo",
+			"key":"s",
+			"rightAnswer":false
+		}]
+	},
+	{
+		"id":4,
+		"question":"Il personaggio della foto è un calciatore?",
+		"image":"https://magal.li/i/400/400",
+		"answers":[{
+			"text":"Vero",
+			"key":"Right",
+			"rightAnswer":true
+		},{
+			"text":"Falso",
+			"key":"Left",
+			"rightAnswer":false
+		}]
+	}
+]
