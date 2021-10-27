@@ -7,7 +7,6 @@ export default function Assessment({ assessment, showNextAssessment }) {
 	const [timer, setTimer] = useState(ASSESSMENT_TIME);
 
 	useEffect(() => {
-		console.log(assessment);
 		setIsTimeOver(false);
 		setTimer(ASSESSMENT_TIME);
 		let counter = 0;
@@ -40,7 +39,7 @@ export default function Assessment({ assessment, showNextAssessment }) {
 		return () => {
 			window.removeEventListener('keydown', checkAnswer)
 		}
-	}, [assessment])
+	}, [isTimeOver, assessment])
 
 	return (
 		<div>

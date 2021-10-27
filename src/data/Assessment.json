@@ -48,11 +48,11 @@
 		"image":"https://magal.li/i/400/400",
 		"answers":[{
 			"text":"Vero",
-			"key":"Right",
+			"key":"ArrowRight",
 			"rightAnswer":true
 		},{
 			"text":"Falso",
-			"key":"Left",
+			"key":"ArrowLeft",
 			"rightAnswer":false
 		}]
 	}
